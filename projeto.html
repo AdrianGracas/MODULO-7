@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-brr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validating </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Validação</h1>
+        <h2>insira os valores no campo abaixo:</h2>
+        <form id="form-validating">
+            <input type="number" id="valor-a" required placeholder = "Valor-A">
+            <input type="number" id="valor-b" required placeholder = "Valor-B">
+            <p class="error-validating">O valor A deve ser menor que o valor B</p>
+            <button id="btn-validar" type="submit">Validar</button>
+        </form>
+        <p class="success-validating"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
